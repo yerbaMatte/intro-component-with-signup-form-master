@@ -27,7 +27,7 @@ html {
   /* make sure that element covers 100% of height */
   min-height: 100%;
   /* choose image to cover element's background */
-  background: url(../images/bg-intro-desktop.png) hsl(0deg 100% 74%);
+  background: url(./images/bg-intro-desktop.png) hsl(0deg 100% 74%);
   /* cover whole area with the image bg */
   background-size: cover;
   /* prevent background to repeat itself - tiling */
