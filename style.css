@@ -125,10 +125,10 @@ input {
   margin-bottom: 1.1rem;
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
-  gap: 1.4rem;
+  gap: 0.7rem;
 }
 
 .cta-link.link-style {
@@ -151,4 +151,22 @@ form {
 .warning span {
   color: var(--Red);
   font-weight: 600;
+}
+
+/* ----------->>>>----------- FORM-VALIDATION -----------<<<<----------- */
+
+.form-valid-box {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  height: 1.2rem;
+  text-align: right;
+}
+
+/* VALID INVALID CONTAINERS */
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
 }
