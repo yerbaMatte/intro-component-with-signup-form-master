@@ -1,0 +1,25 @@
+@media (max-width: 73.5em) {
+  .container {
+    gap: 2.4rem;
+    margin-left: 2.4rem;
+  }
+  .warning {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 53em) {
+  html {
+    background: url(./images/bg-intro-mobile.png) hsl(0deg 100% 74%);
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-content {
+    max-width: 100%;
+    margin: 0 1.2rem;
+  }
+}

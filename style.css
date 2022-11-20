@@ -34,6 +34,8 @@ html {
   background-repeat: no-repeat;
   /* center image */
   background-position: center center;
+  /* fixed background-image */
+  /* background-attachment: fixed; */
 }
 
 /* -----------  GENERAL -----------  */
@@ -84,8 +86,8 @@ html {
 }
 
 .form-side {
-  /* padding: 0 6.2rem; */
-  width: 90%;
+  width: 100%;
+  margin: 0 1.2rem;
 }
 
 .form-box {
