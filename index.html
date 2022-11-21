@@ -20,6 +20,7 @@
     <title>Frontend Mentor | Intro component with sign up form</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <main class="main-form">
@@ -40,42 +41,36 @@
               >Try it free 7 days then $20/mo. thereafter</a
             >
             <div class="form-box">
-              <form class="form">
+              <form class="signUp" method="post">
                 <div class="name">
-                  <input type="text" placeholder="First Name" />
-                  <div class="form-valid-box">
-                    <div class="valid-box"></div>
-                  </div>
+                  <input type="text" placeholder="First Name" id="FIRSTNAME" />
+                  <div class="validation-box"></div>
                 </div>
                 <div class="last-name">
-                  <input type="text" placeholder="Last Name" />
-                  <div class="form-valid-box">
-                    <div class="valid-box">Bardzo ladne dejta</div>
-                  </div>
+                  <input type="text" placeholder="Last Name" id="LASTNAME" />
+                  <div class="validation-box"></div>
                 </div>
                 <div class="email">
                   <input
                     type="email"
                     placeholder="Email Address"
                     name="email"
-                    id="email"
+                    id="EMAIL"
                   />
-                  <div class="form-valid-box">
-                    <div class="valid-box"></div>
-                  </div>
+                  <div class="validation-box"></div>
                 </div>
                 <div class="password">
                   <input
                     type="password"
                     placeholder="Password"
                     name="email"
-                    id="password"
+                    id="PASSWORD"
                   />
-                  <div class="form-valid-box">
-                    <div class="valid-box"></div>
-                  </div>
+                  <div class="validation-box"></div>
                 </div>
-                <button class="btn-submit">Claim your free trial</button>
+                <button class="btn-submit" type="submit">
+                  Claim your free trial
+                </button>
               </form>
               <p class="warning">
                 By clicking the button, you are agreeing to our
