@@ -2,6 +2,8 @@
   /* ### Primary */
   --Red: hsl(0, 100%, 74%);
   --Green: hsl(154, 59%, 51%);
+  --Valid: rgb(0, 179, 0);
+  --Invalid: red;
   /* ### Accent */
   --Blue: hsl(248, 32%, 49%);
   /* ### Neutral */
@@ -125,7 +127,7 @@ input {
   margin-bottom: 1.1rem;
 }
 
-.form {
+.signUp {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
@@ -155,7 +157,7 @@ input {
 
 /* ----------->>>>----------- FORM-VALIDATION -----------<<<<----------- */
 
-.form-valid-box {
+.validation-box {
   font-family: 'Poppins', sans-serif;
   font-size: 0.8rem;
   height: 1.2rem;
@@ -163,10 +165,18 @@ input {
 }
 
 /* VALID INVALID CONTAINERS */
-.valid {
-  color: green;
+.validB {
+  border: 2px solid var(--Valid);
 }
 
-.invalid {
-  color: red;
+.validF {
+  color: var(--Valid);
+}
+
+.invalidB {
+  border: 2px solid var(--Invalid);
+}
+
+.invalidF {
+  color: var(--Invalid);
 }
