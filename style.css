@@ -2,6 +2,8 @@
   /* ### Primary */
   --Red: hsl(0, 100%, 74%);
   --Green: hsl(154, 59%, 51%);
+  --Valid: rgb(0, 179, 0);
+  --Invalid: red;
   /* ### Accent */
   --Blue: hsl(248, 32%, 49%);
   /* ### Neutral */
@@ -163,3 +165,18 @@ input {
 }
 
 /* VALID INVALID CONTAINERS */
+.validB {
+  border: 2px solid var(--Valid);
+}
+
+.validF {
+  color: var(--Valid);
+}
+
+.invalidB {
+  border: 2px solid var(--Invalid);
+}
+
+.invalidF {
+  color: var(--Invalid);
+}
